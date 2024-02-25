@@ -1,0 +1,71 @@
+<html>
+    <head>
+    </head>
+    <body style="text-align:center; font-family: poppins, Tahoma; font-weight: bold; "bgcolor="EBD9B4">
+        <h1 style="text-align:center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Chandan Hospital</h1>
+        <fieldset>
+            <legend>Appointment Form</legend>
+            <form>
+                <table>
+                    <tr>
+                        <td>Patient Name:</td>
+                        <td><input type="text" name="pname" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="number" name="age" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Weight(kg):</td>
+                        <td><input type="number" name="weight" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Height(cm):</td>
+                        <td><input type="number" name="height" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Blood Group:</td>
+                        <td><input type="number" name="blood_group" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Phone No:</td>
+                        <td><input type="tel" name="pnumber" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Are you COVID Positive:</td>
+                        <td><input type="radio" name="cov" />Yes
+                        <input type="radio" name="cov" />No</td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td><input type="radio" name="a" />Male
+                        <input type="radio" name="a" />Female</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Appointment:</td>
+                        <td><input type="date" name="apptdate" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Reason for Appointment:</td>
+                        <td><textarea rows="4" cols="50" name="apptreason" required="true"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Insurance Company:</td>
+                        <td><input type="text" name="inscompany" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Policy Number:</td>
+                        <td><input type="text" name="inscompany" required="true"/></td>
+                    </tr>
+                    <tr>
+                        <td>Medical History</td>
+                        <td><textarea rows="4" cols="30" name="medhistory" required="true"></textarea></td>
+                    </tr>
+                    <td><input type="submit" /></td>
+                <td><input type="reset" /></td>
+                <td><input type="button" value="Print" onclick="window.print();" /></td>
+            </table>
+            </form>
+        </fieldset>
+    </body>
+</html>

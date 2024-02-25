@@ -1,0 +1,41 @@
+body{
+background-color: pink;
+}
+
+#box
+{
+height: 1200px;
+width: 1200px;
+border: 1px solid;
+margin: 0px auto;
+}
+
+#one
+{
+height: 1150px;
+width: 500px;
+border: 1px solid;
+margin-left: 25px;
+margin-top: 25px;
+float: left;
+}
+
+#two
+{
+height: 1150px;
+width: 300px;
+border: 1px solid;
+margin-left: 25px;
+margin-top: 25px;
+float: left;
+}
+
+#three
+{
+height: 1150px;
+width: 300px;
+border: 1px solid;
+margin-left: 25px;
+margin-top: 25px;
+float: left;
+}

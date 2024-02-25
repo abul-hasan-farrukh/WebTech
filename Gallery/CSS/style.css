@@ -1,0 +1,267 @@
+#box
+{
+height: 1200px;
+width: 1200px;
+border: 1px solid;
+margin: 0px auto;
+background-color: lightgrey;
+}
+
+#col1
+{
+height: 1150px;
+width: 500px;
+/* border: 1px solid; */
+margin-left: 25px;
+margin-top: 25px;
+float: left;
+}
+
+#Googleplus
+{
+      height: 400px; 
+      width: 500px;
+      /* border: 1px solid; */
+      border-radius: 5px;
+      float: left; 
+      background-color: white;
+}
+
+#Googleplusbutton
+{
+    margin-top: 25px;
+    margin-left: 335px;
+    width: 140px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(98, 119, 235);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+#Googleplustextbox
+{
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid; */
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+h3
+{
+    font-family: Lucida Sans;
+    font-size: 30px;
+    color: rgb(38, 37, 37);
+}
+
+p
+{
+    font-family:  Arial;
+    font-size: 18px;
+}
+
+#oneB
+{
+      height: 725px; 
+      width: 500px;
+      /* border: 1px solid;  */
+      margin-top: 25px;
+      float: left;
+}
+
+#BloggerAndroidCol
+{
+      height: 725px; 
+      width: 225px;
+      /* border: 1px solid;  */
+      float: left;
+}
+
+#blogger
+{
+    width: 225px;
+    height: 290px;
+    /* border: 1px solid; */
+    border-radius: 5px 5px 0px 0px;
+    float: left;
+    background-color: 0xCE483D;
+    
+}
+
+#bloggerimage
+{
+    width: 225px;
+    height: 150px;
+    /* background-color: rgb(255, 234, 0); */
+    
+    /* border: 2px solid; */
+    border-radius: 5px 5px 0px 0px;
+}
+
+#bloggericon
+{
+    background-image: url("../Images/bloggericon.png");
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 125px;
+    height: 125px;
+    /* border: 1px solid; */
+}
+
+#bloggertext
+{
+    width: 225px;
+    height: 125px;
+    background-color: rgb(185, 40, 40);
+    /* border: 1px solid blue; */
+}
+
+.headings
+{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 7px;
+    margin-left: 10px;
+    color: white;
+    width: 70px;
+    height: 15px;
+    /* border: 1px solid black; */
+}
+
+.content p
+{
+    font-family: Calibri;
+    font-size: 15px;
+    margin-left: 11px;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+#android
+{
+    width: 225px;
+    height: 410px;
+    margin-top: 25px;
+    /* border: 1px solid; */
+    float: left;
+    background-color: rgb(61, 250, 61);
+    border-radius: 5px;
+}
+
+#ChromeAndMusicCol
+{
+      height: 725px; 
+      width: 250px;
+      /* border: 1px solid;  */
+      float: right;
+}
+
+#chrome
+{
+    width: 250px;
+    height: 410px;
+    /* border: 1px solid; */
+    float: left;
+    background-color: rgb(169, 70, 70);
+    border-radius: 5px;
+}
+
+#music
+{
+    width: 250px;
+    height: 290px;
+    margin-top: 25px;
+    /* border: 1px solid; */
+    float: left;
+    background-color: rgb(251, 251, 17);
+    border-radius: 5px;
+}
+
+#col2
+{
+height: 1150px;
+width: 300px;
+/* border: 1px solid; */
+margin-left: 25px;
+margin-top: 25px;
+float: left;
+}
+
+#gmail
+{
+    width: 300px;
+    height: 287.5px;
+    /* border: 1px solid; */
+    background-color: rgb(158, 221, 246);
+    border-radius: 5px;
+}
+
+
+#news
+{
+    width: 300px;
+    height: 402.5px;
+    margin-top: 25px;
+    /* border: 1px solid; */
+    background-color: rgb(159, 206, 159);
+    border-radius: 5px;
+}
+
+
+#earth
+{
+    width: 300px;
+    height: 406px;
+    margin-top: 25px;
+    /* border: 1px solid; */
+    background-color: rgb(24, 12, 105);
+    border-radius: 5px;
+}
+
+#col3
+{
+height: 1150px;
+width: 300px;
+/* border: 1px solid; */
+margin-left: 25px;
+margin-top: 25px;
+float: left;
+}
+
+#maps
+{
+    width: 300px;
+    height: 406px;
+    /* border: 1px solid; */
+    background-color: rgb(255, 196, 0);
+    border-radius: 5px;
+}
+
+
+#search
+{
+    width: 300px;
+    height: 402.5px;
+    margin-top: 25px;
+    /* border: 1px solid; */
+    background-color: rgb(129, 144, 240);
+    border-radius: 5px;
+}
+
+
+#youtube
+{
+    width: 300px;
+    height: 287.5px;
+    margin-top: 25px;
+    /* border: 1px solid; */
+    background-color: rgb(65, 65, 65);
+    border-radius: 5px;
+}
