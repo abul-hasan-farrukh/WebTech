@@ -1,1 +1,1 @@
-# WebTech
+# WebTech Repo for web development
