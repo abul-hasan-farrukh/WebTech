@@ -86,39 +86,40 @@ p
     width: 225px;
     height: 290px;
     /* border: 1px solid; */
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
     float: left;
-    background-color: 0xCE483D;
+    background-color: rgb(206, 72, 61);
     
 }
 
 #bloggerimage
 {
-    width: 225px;
-    height: 150px;
-    /* background-color: rgb(255, 234, 0); */
-    
-    /* border: 2px solid; */
+    width: 224px;
+    height: 115px;
+    background-color: rgb(206, 72, 61);
+    /* border: 1px solid black; */
     border-radius: 5px 5px 0px 0px;
 }
 
 #bloggericon
 {
-    background-image: url("../Images/bloggericon.png");
+    background-image: url("../Images/bloggericon.jpeg");
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 5px;
     margin: 0px auto;
-    margin-top: 15px;
-    width: 125px;
-    height: 125px;
+    margin-top: 30px;
+    width: 80px;
+    height: 79px;
     /* border: 1px solid; */
 }
 
 #bloggertext
 {
     width: 225px;
-    height: 125px;
+    height: 144px;
     background-color: rgb(185, 40, 40);
+    border-radius: 0px 0px 5px 5px;
+    font-weight: bold;
     /* border: 1px solid blue; */
 }
 
@@ -151,8 +152,39 @@ p
     margin-top: 25px;
     /* border: 1px solid; */
     float: left;
-    background-color: rgb(61, 250, 61);
+    background-color: rgb(142, 176, 33);
     border-radius: 5px;
+}
+
+#androidimage
+{
+    width: 224px;
+    height: 249px;
+    background-color: rgb(142, 176, 33);
+    /* border: 1px solid black; */
+    border-radius: 5px 5px 0px 0px;
+}
+
+#androidicon
+{
+    background-image: url("../Images/androidicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 187px;
+    height: 216px;
+    /* border: 1px solid; */
+}
+
+#androidtext
+{
+    width: 225px;
+    height: 130px;
+    background-color: rgb(126, 157, 28);
+    font-weight: bold;
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
 }
 
 #ChromeAndMusicCol
@@ -169,8 +201,39 @@ p
     height: 410px;
     /* border: 1px solid; */
     float: left;
-    background-color: rgb(169, 70, 70);
+    background-color: rgb(121, 48, 42);
     border-radius: 5px;
+}
+
+#chromeimage
+{
+    width: 250px;
+    height: 215px;
+    background-color: rgb(121, 48, 42);
+    /* border: 1px solid black; */
+    border-radius: 5px 5px 0px 0px;
+}
+
+#chromeicon
+{
+    background-image: url("../Images/chromeicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 164px;
+    height: 160px;
+    /* border: 1px solid; */
+}
+
+#chrometext
+{
+    width: 250px;
+    height: 144px;
+    background-color: rgb(102, 38, 33);
+    font-weight: bold;
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
 }
 
 #music
@@ -180,8 +243,39 @@ p
     margin-top: 25px;
     /* border: 1px solid; */
     float: left;
-    background-color: rgb(251, 251, 17);
+    background-color: rgb(255, 208, 6);
     border-radius: 5px;
+}
+
+#musicimage
+{
+    width: 250px;
+    height: 140px;
+    background-color: rgb(255, 208, 6);
+    /* border: 1px solid black; */
+    border-radius: 5px 5px 0px 0px;
+}
+
+#musicicon
+{
+    background-image: url("../Images/musicicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 128px;
+    height: 126px;
+    /* border: 1px solid; */
+}
+
+#musictext
+{
+    width: 250px;
+    height: 130px;
+    background-color: rgb(235, 192, 9);
+    border-radius: 0px 0px 5px 5px;
+    font-weight: bold;
+    /* border: 1px solid blue; */
 }
 
 #col2
@@ -197,9 +291,9 @@ float: left;
 #gmail
 {
     width: 300px;
-    height: 287.5px;
+    height: 350px;
     /* border: 1px solid; */
-    background-color: rgb(158, 221, 246);
+    background-color: rgb(171, 203, 214);
     border-radius: 5px;
 }
 
@@ -207,7 +301,7 @@ float: left;
 #news
 {
     width: 300px;
-    height: 402.5px;
+    height: 290px;
     margin-top: 25px;
     /* border: 1px solid; */
     background-color: rgb(159, 206, 159);
@@ -218,7 +312,7 @@ float: left;
 #earth
 {
     width: 300px;
-    height: 406px;
+    height: 460px;
     margin-top: 25px;
     /* border: 1px solid; */
     background-color: rgb(24, 12, 105);
@@ -259,7 +353,7 @@ float: left;
 #youtube
 {
     width: 300px;
-    height: 287.5px;
+    height: 290px;
     margin-top: 25px;
     /* border: 1px solid; */
     background-color: rgb(65, 65, 65);
