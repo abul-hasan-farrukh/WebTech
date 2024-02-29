@@ -1,6 +1,344 @@
 <html>
+
 <head>
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<style>
+		body {
+			background-color: green;
+		}
+
+		#outer {
+			height: 1400px;
+			width: 1000px;
+			/* border: 1px solid white; */
+			margin: 0px auto;
+		}
+
+		#nav {
+			width: 1000px;
+			height: 50px;
+			border: 1px solid rgb(210, 206, 206);
+			border-radius: 20px 20px 0px 0px;
+			background-color: rgb(247, 242, 242);
+		}
+
+		#nav ul {
+			list-style-type: none;
+		}
+
+		#nav ul li {
+			display: inline;
+			border-right: 1px solid rgb(210, 206, 206);
+			padding: 15px;
+			margin-left: 20px;
+			font-size: 12px;
+			font-family: Open sans, sans-serif;
+			/* background-color: white; */
+		}
+
+		#nav ul li a:hover {
+			color: green;
+		}
+
+		#nav ul li a {
+			color: rgb(144, 143, 143);
+			text-decoration: none;
+		}
+
+		#searchbox {
+			float: right;
+			height: 40px;
+			width: 250px;
+			margin-top: 5px;
+			/* border: 1px solid; */
+		}
+
+		#boxalign {
+			height: 40px;
+		}
+
+		#slider {
+			height: 250px;
+			width: 1001px;
+			/* border: 1px solid black; */
+			margin-top: 5px;
+			background-color: white;
+			background-image: url("images/sofa.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#col1 {
+			height: 780px;
+			width: 1001px;
+			/* border: 1px solid white; */
+			margin-top: 5px;
+		}
+
+		#leftcol {
+			height: 780px;
+			width: 701px;
+			/* border: 1px solid white; */
+			background-color: white;
+			float: left;
+			border-radius: 0px 0px 0px 20px;
+		}
+
+		#box1 {
+			width: 655px;
+			height: 50px;
+			/* border: 1px solid; */
+			margin-top: 40px;
+			margin-left: 35px;
+		}
+
+		.heading1 {
+			font-family: Open sans, sans-serif;
+			font-weight: 600;
+			color: #4d4d4d;
+			font-size: 18px;
+		}
+
+		.date {
+			margin-top: 10px;
+			font-family: Calibri;
+			/* font-weight: 600; */
+			color: #4d4d4d;
+			font-size: 11px;
+		}
+
+		#date {
+			color: red;
+		}
+
+		#box2 {
+			width: 655px;
+			height: 210px;
+			/* border: 1px solid; */
+			margin-top: 10px;
+			margin-left: 35px;
+			background-image: url("images/girlongrass.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		#box3 {
+			width: 655px;
+			height: 380px;
+			/* border: 1px solid; */
+			margin-top: 10px;
+			margin-left: 35px;
+		}
+
+		#rightcol {
+			height: 780px;
+			width: 300px;
+			/* border: 1px solid black; */
+			background-color: lightgrey;
+			float: right;
+			border-radius: 0px 0px 20px 0px;
+		}
+
+		#sidebarheading {
+			font-family: Open sans, sans-serif;
+			font-weight: 600;
+			color: #4d4d4d;
+			font-size: 18px;
+			margin-left: 40px;
+			margin-top: 40px;
+		}
+
+		#sidebaritem ul {
+			list-style-type: none;
+		}
+
+		#sidebaritem ul li {
+			padding: 5px;
+			font-size: 15px;
+			font-family: Calibri;
+		}
+
+		#sidebaritem ul li a:hover {
+			color: green;
+		}
+
+		#sidebaritem ul li a {
+			color: rgb(144, 143, 143);
+			text-decoration: none;
+		}
+
+		#sponsoritem ul {
+			list-style-type: none;
+		}
+
+		#sponsoritem ul li {
+			padding: 4px;
+			font-size: 15px;
+			font-family: Calibri;
+		}
+
+		#sponsoritem ul li a:hover {
+			color: green;
+		}
+
+		#sponsoritem ul li a {
+			color: rgb(144, 143, 143);
+			text-decoration: none;
+		}
+
+		#footer {
+			height: 290px;
+			width: 1001px;
+			border: 1px solid white;
+			background-color: white;
+			margin-top: 20px;
+			border-radius: 20px;
+		}
+
+		.footercols {
+			width: 310px;
+			height: 260px;
+			/* border: 1px solid black; */
+			margin-left: 15px;
+			margin-top: 15px;
+			float: left;
+		}
+
+		#footheading1 {
+			width: 310px;
+			height: 50px;
+			/* border: 1px solid; */
+		}
+
+		#gallerybox {
+			width: 250px;
+			height: 150px;
+			/* border: 1px solid; */
+			margin-left: 15px;
+		}
+
+		#gbox1 {
+			width: 60px;
+			height: 60px;
+			/* border: 1px solid; */
+			float: left;
+		}
+
+		#gimg1 {
+			background-image: url("images/gbox1.jpeg");
+			width: 54px;
+			height: 54px;
+			margin-top: 3px;
+			margin-left: 3px;
+		}
+
+		#gbox2 {
+			width: 60px;
+			height: 60px;
+			/* border: 1px solid; */
+			margin-left: 32.5px;
+			float: left;
+		}
+
+		#gimg2 {
+			background-image: url("images/gbox2.jpeg");
+			width: 54px;
+			height: 54px;
+			margin-top: 3px;
+			margin-left: 3px;
+		}
+
+		#gbox3 {
+			width: 60px;
+			height: 60px;
+			/* border: 1px solid; */
+			margin-left: 32.5px;
+			float: left;
+		}
+
+		#gimg3 {
+			background-image: url("images/gbox3.jpeg");
+			width: 54px;
+			height: 54px;
+			margin-top: 3px;
+			margin-left: 3px;
+		}
+
+		#gbox4 {
+			width: 60px;
+			height: 60px;
+			/* border: 1px solid; */
+			margin-top: 26px;
+			float: left;
+		}
+
+		#gimg4 {
+			background-image: url("images/gbox4.jpeg");
+			width: 54px;
+			height: 54px;
+			margin-top: 3px;
+			margin-left: 3px;
+		}
+
+		#gbox5 {
+			width: 60px;
+			height: 60px;
+			/* border: 1px solid; */
+			margin-left: 32.5px;
+			margin-top: 26px;
+			float: left;
+		}
+
+		#gimg5 {
+			background-image: url("images/gbox5.jpeg");
+			width: 54px;
+			height: 54px;
+			margin-top: 3px;
+			margin-left: 3px;
+		}
+
+		#gbox6 {
+			width: 60px;
+			height: 60px;
+			/* border: 1px solid; */
+			margin-left: 32.5px;
+			margin-top: 26px;
+			float: left;
+		}
+
+		#gimg6 {
+			background-image: url("images/gbox6.jpeg");
+			width: 54px;
+			height: 54px;
+			margin-top: 3px;
+			margin-left: 3px;
+		}
+
+		#ipsumbox {
+			width: 270px;
+			height: 150px;
+			/* border: 1px solid; */
+			margin-left: 15px;
+		}
+
+		#footheading2 {
+			width: 310px;
+			height: 50px;
+			/* border: 1px solid; */
+		}
+
+		#footheading3 {
+			width: 310px;
+			height: 50px;
+			/* border: 1px solid; */
+		}
+
+		#contactbox {
+			width: 270px;
+			height: 150px;
+			/* border: 1px solid; */
+			margin-left: 15px;
+		}
+	</style>
 </head>
 
 <body>
@@ -12,10 +350,10 @@
 			</div>
 			<ul>
 				<li><a href="#">HOME</a></li>
-				<li><a href="aboutus.html">ABOUT US</a></li>
-				<li><a href="register.html">REGISTER</a></li>
-				<li><a href="login.html">LOGIN</a></li>
-				<li><a href="contactus.html">CONTACT US</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="registration.html">REGISTER</a></li>
+				<li><a href="loggin.html">LOGIN</a></li>
+				<li><a href="contact.html">CONTACT US</a></li>
 			</ul>
 		</div>
 		<div id="slider"></div>
@@ -24,53 +362,45 @@
 				<div id="box1">
 					<span class="heading1">About Us</span>
 					&nbsp;
-					<p class="date">Date: <a id="date" href="#">16.03.2018</a> | Posted by <a id="date" href="#">Owner
-						</a> | Filed under <a id="date" href="#">templates</a>, <a id="date" href="#">internet</a> with
-						comments <a id="date" href="#">(11)</a></p>
+					<p class="date">
+						Date: <a id="date" href="#">16.03.2018</a> | Posted by
+						<a id="date" href="#">Owner </a> | Filed under
+						<a id="date" href="#">templates</a>,
+						<a id="date" href="#">internet</a> with comments
+						<a id="date" href="#">(11)</a>
+					</p>
 				</div>
 				<div id="box2"></div>
 				<div id="box3">
-					<span style="color: #4d4d4d; font-family: Calibri; font-size: 15px;">This is a free website template
-						by FREEWebsiteTemplateZ.com. This work is ditributed under the Creatives Common License
-						Attributions 3.0 which means that you are FREE to use it for personal or commercial purpose
-						provided the credit links in the template footer are left intact.</span>
+					<p style="text-align: justify; font-size: 16px; font-family: Calibri">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam
+						libero justo laoreet sit amet cursus sit amet. Malesuada nunc vel
+						risus commodo viverra maecenas accumsan lacus. Nulla porttitor
+						massa id neque. Risus commodo viverra maecenas accumsan lacus vel
+						facilisis volutpat est. Ultricies tristique nulla aliquet enim
+						tortor at auctor. Quam pellentesque nec nam aliquam sem et tortor.
+						Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.
+					</p>
+					<br>
+					<br>
+					<p style="text-align: justify; font-size: 16px; font-family: Calibri">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Nam
+						libero justo laoreet sit amet cursus sit amet. Malesuada nunc vel
+						risus commodo viverra maecenas accumsan lacus. Nulla porttitor
+						massa id neque. Risus commodo viverra maecenas accumsan lacus vel
+						facilisis volutpat est. Ultricies tristique nulla aliquet enim
+						tortor at auctor. Quam pellentesque nec nam aliquam sem et tortor.
+						Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.
+					</p>
 					&nbsp;
-					<p style="margin-top: 10px; font-family: Calibri;"><a id="date" href="#">Read More >></a></p>
+					<p style="margin-top: 10px; font-family: Calibri">
+						<a id="date" href="#">Read More >></a>
+					</p>
 				</div>
 				&nbsp;
-				<hr>
-				<div id="box4">
-					<span class="heading1">Laptop in meeting room</span>
-					&nbsp;
-					<p class="date">Date: <a id="date" href="#">15.03.2018</a> | Posted by <a id="date" href="#">Owner
-						</a> | Filed under <a id="date" href="#">templates</a>, <a id="date" href="#">internet</a> with
-						comments <a id="date" href="#">(8)</a></p>
-				</div>
-				<div id="box5">
-					<span style="color: #4d4d4d; font-family: Calibri; font-size: 15px;">Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <a id="date"
-							href="#">dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida. Amet dictum
-							sit amet</a> justo donec enim diam vulputate ut. Viverra orci sagittis eu volutpat odio
-						facilisis mauris sit amet. Dignissim sodales ut eu sem integer vitae justo eget. Lorem ipsum
-						dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-						dolore magna aliqua.</span>
-					&nbsp;
-					<p style="color: #4d4d4d; font-family: Calibri; font-size: 15px;">Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Egestas quis ipsum suspendisse ultrices gravida. Amet dictum sit amet justo donec enim diam
-						vulputate ut. Viverra orci sagittis eu volutpat odio facilisis mauris sit amet. Dignissim
-						sodales ut eu sem integer vitae justo eget. Condimentum lacinia</p>
-					<p style="font-family: Calibri;"><a id="date" href="#">Read More >></a></p>
-				</div>
-				&nbsp;
-				<hr>
-				<div id="box6">
-					<div id="page1"><input id="pg3" type="button" value=">" /></div>
-					<div id="page2"><input id="pg2" type="button" value="2" /></div>
-					<div id="page3"><input id="pg1" type="button" value="1" /></div>
-					<p style="color:#4d4d4d; font-family: Calibri; font-size: 15px;">Page 1 of 2</p>
-
-				</div>
+				<hr />
 			</div>
 			<div id="rightcol">
 				<p id="sidebarheading">Sidebar Menu</p>
@@ -101,16 +431,22 @@
 						<li><a href="#">Consectetur purus ut faucibus </a></li>
 						<li><a href="#">Lorem ipsum</a></li>
 						<li><a href="#">Consectetur purus ut faucibus </a></li>
-
 					</ul>
 				</div>
-
 			</div>
 		</div>
 		<div id="footer">
 			<div class="footercols">
 				<div id="footheading1">
-					<p style="margin-left:15px; font-family: Arial; font-weight: 600; color: #4d4d4d; font-size: 20px;">Image Gallery</p>
+					<p style="
+                margin-left: 15px;
+                font-family: Arial;
+                font-weight: 600;
+                color: #4d4d4d;
+                font-size: 20px;
+              ">
+						Image Gallery
+					</p>
 				</div>
 				<div id="gallerybox">
 					<div id="gbox1">
@@ -136,25 +472,98 @@
 
 			<div class="footercols">
 				<div id="footheading2">
-					<p style="margin-left:15px; font-family: Arial; font-weight:300; color: #4d4d4d; font-size: 20px;">Lorem Ipsum</p>
+					<p style="
+                margin-left: 15px;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 20px;
+              ">
+						Lorem Ipsum
+					</p>
 				</div>
 				<div id="ipsumbox">
-					<span style="font-family: Arial; font-weight:300; color: #4d4d4d; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur</span>
-					<p style=" text-align: justify; font-family: Arial; font-weight:300; color: #4d4d4d; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius consectetur <a id="date" href="#">adipiscing elit, sed do eiusmod</a> tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo duis ut diam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiut diam.</p>
+					<span style="
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              ">Lorem ipsum dolor sit amet, consectetur</span>
+					<p style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              ">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eius consectetur
+						<a id="date" href="#">adipiscing elit, sed do eiusmod</a> tempor
+						incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo
+						duis ut diam.Lorem ipsum dolor sit amet, consectetur adipiscing
+						elit, sed do eiut diam.
+					</p>
 				</div>
 			</div>
 
 			<div class="footercols">
 				<div id="footheading3">
-					<p style="margin-left:15px; font-family: Arial; font-weight:500; color: #4d4d4d; font-size: 20px;">Contact</p>
+					<p style="
+                margin-left: 15px;
+                font-family: Arial;
+                font-weight: 500;
+                color: #4d4d4d;
+                font-size: 20px;
+              ">
+						Contact
+					</p>
 				</div>
 				<div id="contactbox">
-					<span style="font-family: Arial; font-weight:300; color: #4d4d4d; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius </span>
-					<p style=" text-align: justify; font-family: Arial; font-weight:300; color: #4d4d4d; font-size: 14px;"><a id="date" href="#">support@yoursite.com</a></p>
-					<p style=" text-align: justify; font-family: Arial; font-weight:300; color: #4d4d4d; font-size: 14px;">+1 (123)444-5677</p>
-					<p style=" text-align: justify; font-family: Arial; font-weight:300; color: #4d4d4d; font-size: 14px;">+1 (123)444-5678</p>
+					<span style="
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eius
+					</span>
+					<p style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              ">
+						<a id="date" href="#">support@yoursite.com</a>
+					</p>
+					<p style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              ">
+						+1 (123)444-5677
+					</p>
+					<p style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              ">
+						+1 (123)444-5678
+					</p>
 					<!-- <br> -->
-					<p style=" text-align: justify; font-family: Arial; font-weight:300; color: #4d4d4d; font-size: 14px;">Address 123 TemplateAccess RD1</p>
+					<p style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              ">
+						Address 123 TemplateAccess RD1
+					</p>
 				</div>
 			</div>
 		</div>
