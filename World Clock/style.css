@@ -1,0 +1,152 @@
+#outer
+{
+        width: 1210px;
+        height: 250px;
+        /* border: 1px solid; */
+        margin-left: 100px;
+        margin-top: 100px;
+}
+
+h2
+{
+        font-family: Calibri;
+        color: white;
+        text-align: center;
+}
+
+h1
+{
+        font-family: calibri;
+        color: white;
+        margin-top: 40px;
+        margin-left: 80px;
+        font-size: 40px;
+}
+
+#ind-btn
+{
+        font-family: calibri;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 8px;
+        background-color: rgb(13, 110, 253);
+        color: white;
+
+}
+
+#us-btn
+{
+        font-family: calibri;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 8px;
+        background-color: transparent;
+        color: rgb(13, 110, 253);
+}
+
+#chn-btn
+{
+        font-family: calibri;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 8px;
+        background-color: transparent;
+        color: rgb(13, 110, 253);
+}
+
+#indiaclock
+{
+        width: 380px;
+        height: 250px;
+        /* border: 1px solid; */
+        border-radius: 8px;
+        float: left;
+        border-radius: 8px 8px 8px 8px;
+        background-image: url("worldmapp.jpg");
+}
+
+#india
+{
+        width: 380px;
+        height: 59px;
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 8px 8px 0px  0px;
+        background-color: rgb(13, 110, 253);
+}
+
+#indiatime
+{
+        width: 380px;
+        height: 188px;
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 0px 0px 8px  8px;
+}
+
+
+#usclock
+{
+        width: 380px;
+        height: 250px;
+        border: 1px solid rgb(13, 110, 253);
+        float: left;
+        margin-left: 30px;
+        border-radius: 8px 8px 8px 8px;
+        background-image: url("worldmapp.jpg");
+}
+
+#us
+{
+        width: 380px;
+        height: 59px;
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 8px 8px 0px  0px;
+        /* background-color: rgb(13, 110, 253); */
+}
+
+#ustime
+{
+        width: 380px;
+        height: 188px;
+        /* border: 1px solid rgb(13, 110, 253); */
+        border-radius: 0px 0px 8px  8px;
+}
+
+
+#chinaclock
+{
+        width: 380px;
+        height: 250px;
+        float: left;
+        margin-left: 30px;
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 8px 8px 8px 8px;
+        background-image: url("worldmapp.jpg");
+}
+
+#china
+{
+        width: 380px;
+        height: 59px;
+        border: 1px solid rgb(13, 110, 253);
+        border-radius: 8px 8px 0px  0px;
+        /* background-color: rgb(13, 110, 253); */
+}
+
+#chinatime
+{
+        width: 380px;
+        height: 188px;
+        border-radius: 0px 0px 8px  8px;
+}
