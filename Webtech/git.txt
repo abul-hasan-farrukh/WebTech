@@ -1,0 +1,13 @@
+How to commit code:
+
+git init
+
+git status - Red color. No changes applied/saved yet.
+
+git add .
+
+git status - Green color. Changes saved and shows branch name.
+
+git commit -m "Changes_I_Made"--> It saves all changes locally. 
+
+(escape : q )  
