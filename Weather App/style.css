@@ -1,73 +1,214 @@
 #outer
 {
-        height: 550px;
-        width: 450px;
-        border: 1px solid;
+        height: 650px;
+        width: 500px;
+        border: 1px solid white;
         margin-left: 100px;
         border-radius: 30px;
+        background: linear-gradient(to bottom right, rgba(5,246,184,1) 50%, rgba(80,90,140,1) 100%, rgba(85,95,141,1) 100%);
 }
 
 #searchbar
 {
-        height: 50px;
-        width: 250px;
-        border: 1px solid;
-        margin-left: 60px;
+        height: 60px;
+        width: 320px;
+        border: 1px solid white;
+        margin-left: 50px;
         margin-top: 50px;
         border-radius: 50px;
 }
 
-#magnifier
+#searchbox
 {
-        height: 50px;
-        width: 50px;
-        border: 1px solid;
-        margin-left: 330px;
-        margin-top: -50px;
+        height: 60px;
+        width: 320px;
+        border: 1px solid white;
         border-radius: 50px;
+        font-size: 18px;
+        font-family: poppins;
+        padding-left: 25px;
+        
+}
+
+/* #magnifier */
+{
+        height: 60px;
+        width: 60px;
+        border: 1px solid white;
+        margin-left: 360px;
+        margin-top: -60px;
+        border-radius: 50px;
+}
+
+#magnifying
+{
+        height: 60px;
+        width: 60px;
+        border: 1px solid white;
+        margin-left: 390px;
+        margin-top: -60px;
+        border-radius: 50px;
+        background-color: rgb(235, 255, 252);
+        background-image: url(magnifier.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;   
+        background-size: 25px 25px;
 }
 
 #cloud
 {
-        height: 120px;
-        width: 120px;
-        border: 1px solid;
+        height: 170px;
+        width: 180px;
+        /* border: 1px solid; */
         margin-left: 150px;
         margin-top: 50px;
+}
+
+#cloudimage
+{
+        height: 170px;
+        width: 180px;
+        /* border: 1px solid; */
+        /* margin-left: 150px; */
+        /* margin-top: 50px; */
+        background-image: url(weather-app.png);
+        background-repeat: no-repeat;
+        background-size: 190px 190px;
+        /* background-position: center; */
 }
 
 #degrees
 {
         height: 60px;
-        width: 120px;
-        border: 1px solid;
+        width: 180px;
+        /* border: 1px solid; */
         margin-left: 150px;
-        margin-top: 10px;
+        margin-top: 20px;
+}
+
+#degreetext
+{
+        height: 60px;
+        width: 180px;
+        /* border: 1px solid; */
+}
+
+#thirtydegree
+{
+        font-size: 75px;
+        font-family: sans-serif;
+        margin-left: 12px;
+        /* font-weight: bold; */
+        color: white;
+}
+
+#Lucknow
+{
+        font-size: 40px;
+        font-weight: 500;
+        font-family: sans-serif;
+        margin-left: 20px;
+        color: white;
 }
 
 #humdandwindbox
 {
         height: 70px;
-        width: 350px;
-        border: 1px solid;
+        width: 385px;
+        /* border: 1px solid; */
         margin-left: 50px;
-        margin-top: 100px;
+        margin-top: 120px;
 }
 
 #humid
 {
         height: 70px;
-        width: 100px;
-        border: 1px solid;
+        width: 150px;
+        /* border: 1px solid; */
         margin-left: 0px;
         float: left;
+}
+
+#humidimagebox
+{
+        /* border: 1px solid; */
+        height: 70px;
+        width: 75px;
+        float: left;
+        margin-top: -4px;
+        background-image: url(waves2.svg);
+        background-repeat: no-repeat;
+        background-size: 60px 55px;
+        background-position: center;
+}
+
+#humidtextbox
+{
+        /* border: 1px solid yellow; */
+        height: 70px;
+        width: 72px;
+        float: right;
+}
+
+#eightynine
+{
+        font-size: 25px;
+        font-family: poppins;
+        /* margin-left: 5px; */
+        color: white;
+}
+
+#humiditytext
+{
+        font-size: 15px;
+        font-family: poppins;
+        /* margin-left: 5px; */
+        color: white;
 }
 
 #wind
 {
         height: 70px;
+        width: 150px;
+        /* border: 1px solid; */
+        float: left;
+        margin-left: 80px;
+}
+
+#windimagebox
+{
+        /* border: 1px solid; */
+        height: 70px;
+        width: 75px;
+        float: left;
+        margin-left: -30px;
+        margin-top: -4px;
+        background-image: url(air.svg);
+        background-repeat: no-repeat;
+        background-size: 60px 55px;
+        background-position: center;
+}
+
+#windtextbox
+{
+        /* border: 1px solid yellow; */
+        height: 70px;
         width: 100px;
-        border: 1px solid;
-        margin-left: 0px;
         float: right;
+}
+
+#kilometers
+{
+        font-size: 25px;
+        font-family: poppins;
+        color: white;
+        /* margin-left: 5px; */
+}
+
+#windtext
+{
+        font-size: 15px;
+        font-family: poppins;
+        /* margin-left: 5px; */
+        color: white;
 }
