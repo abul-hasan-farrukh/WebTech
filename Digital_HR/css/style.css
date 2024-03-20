@@ -1,0 +1,63 @@
+.navigation
+{
+        font-family: poppins;
+}
+
+.welcome h3
+{
+        font-family: poppins;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 150px;
+        margin-left: -70px;
+}
+
+.welcome  p
+{
+        font-family: poppins;
+        margin-left: -70px;
+        margin-top: 20px;
+        font-size: 25px;
+}
+
+.formalign
+{
+        margin-left: 450px;
+        margin-top: 50px;
+}
+
+.footer
+{
+        min-height: 100px;
+        
+}
+
+.section
+{
+        height: 200px;
+        width: 200px;
+        margin: 0px auto;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: blueviolet;
+}
+
+.section img 
+{
+        width: 150%;
+}
+
+
+.smi
+{
+        list-style-type: none;
+}
+
+.smi li
+{
+        display: inline-block;
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        border-radius: 50%;
+}
