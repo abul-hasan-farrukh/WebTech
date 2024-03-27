@@ -3,6 +3,11 @@
         font-family: poppins;
 }
 
+.navigation li a
+{
+        color: black;
+}
+
 .welcome h3
 {
         font-family: poppins;
@@ -32,13 +37,14 @@
 {
         padding-top: 120px;
         padding-right: 70px;
+        padding-left: 70px;
         font-family: poppins;
 }
 
 .contactformalign
 {
         padding-top: 100px;
-        padding-left: 100px;
+        padding-left: 50px;
         padding-right: 50px;
         font-family: poppins;
 }
