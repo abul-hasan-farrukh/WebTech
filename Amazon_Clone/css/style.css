@@ -2,6 +2,12 @@
         margin: 0px;
         padding: 0px;
 }
+
+
+body
+{
+        background-color: #ece3e3;
+}
 #navbarbox {
         border: 1px solid;
         width: 1400px;
@@ -220,21 +226,23 @@
 
 #shoppingbox
 {
-        width: 900px;
+        width: 980px;
         height: 400px;
-        border: 1px solid;
+        border: 1px solid white;
         margin-top: 40px;
         margin-left: 20px;
+        background-color: white;
 }
 
 #carttotal
 {
-        width: 400px;
+        width: 360px;
         height: 300px;
-        border: 1px solid;
-        float: right;
-        margin-right: 30px;
-        margin-top: -401px;
+        border: 1px solid white;
+        float: left;
+        margin-left: 1030px;
+        margin-top: -505px;
+        background-color: white;
 }
 
 #shopp
@@ -248,7 +256,7 @@
 
 #price
 {
-        margin-left: 840px;
+        margin-left: 920px;
         color: #222f3d;
         font-family: Arial;
         font-size: 13px;
@@ -256,7 +264,7 @@
 
 #hr
 {
-        width: 850px;
+        width: 930px;
         margin-left: 22px;
 }
 
@@ -264,9 +272,14 @@
 {
         width: 200px;
         height: 200px;
-        border: 1px solid;
+        /* border: 1px solid; */
         margin-top: 20px;
+        background-color: white;
         margin-left: 20px;
+        background-image: url(../images/image.png);
+        background-repeat: no-repeat;
+        background-size: 190px;
+        background-position: center;
 
 }
 
@@ -283,7 +296,7 @@
 {
         font-family: Arial;
         margin-top: -20px;
-        margin-left: 800px;
+        margin-left: 880px;
         font-size: 17px;
         color: #222f3d;
 }
@@ -301,8 +314,8 @@
 #shipping
 {
         font-family: Arial;
-        color: rgb(189, 184, 183);
-        font-size: 12px;
+        color: rgb(109, 105, 105);
+        font-size: 13px;
         font-weight: light;
         margin-left: 230px;
         margin-top: 12px;
@@ -316,8 +329,213 @@
         margin-top: 12px;
 }
 
-#learnmore
+#sizecol
+{
+        display: inline-block;
+        font-size: 12px;
+        margin-left: 3px;
+        font-family: Arial;
+        margin-top: 10px;
+        
+}
+
+#size
+{
+        margin-left: 230px;
+        font-family: Arial;
+}
+
+#quantity
+{
+        margin-left: 230px;
+        margin-top: 15px;
+        background-color: whitesmoke;
+        padding: 8px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #acabab;
+}
+
+#bar1
+{
+        /* border: 1px solid grey;
+        border-radius: 1px;
+        height: 15px;
+        width: 1px; */
+        margin-top: -30px;
+        margin-left: 320px;
+        color: grey;
+}
+
+#delete
+{
+        font-size: 11px;
+        font-family: Arial;
+        margin-left: 10px;
+        text-decoration: none;
+}
+
+#bar2
+{
+        margin-top: -19px;
+        margin-left: 380px;
+        color: grey;
+}
+
+#sfl
+{
+        font-size: 11px;
+        font-family: Arial;
+        margin-left: 10px;
+        text-decoration: none;
+}
+
+#bar3
+{
+        margin-top: -19px;
+        margin-left: 480px;
+        color: grey;
+}
+
+#smlk
+{
+        font-size: 11px;
+        font-family: Arial;
+        margin-left: 10px;
+        text-decoration: none;
+}
+
+#bar4
+{
+        margin-top: -19px;
+        margin-left: 600px;
+        color: grey;
+}
+
+#share
+{
+        font-size: 11px;
+        font-family: Arial;
+        margin-left: 10px;
+        text-decoration: none;
+}
+
+#totamt
+{
+        font-family: Arial;
+        margin-top: -18px;
+        margin-left: 880px;
+        font-size: 17px;
+        color: #222f3d;
+}
+
+#subtot
+{
+        font-family: Arial;
+        font-size: 17px;
+        color: #222f3d;
+        margin-left: 745px;
+        margin-top: 15px;
+}
+
+#whitecard
+{
+        width: 980px;
+        height: 60px;
+        background-color: white;
+        /* border: 1px solid; */
+        margin-left: 20px;
+        margin-top: 20px;
+}
+
+#wcprice
 {
         font-size: 12px;
-        margin-top: -15px;
+        font-family: Arial;
+        margin-left: 20px;
+        margin-top: 10px;
+        color:#222f3d;
+}
+
+#greentick
+{
+        margin-top: 20px;
+        margin-left: 20px;
+
+}
+
+#eligible
+{
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: bold;
+        color: green;
+        margin-left: 40px;
+        margin-top: -17px;
+}
+
+#eligible2
+{
+        font-family: Arial;
+        font-size: 12px;
+        color: grey;
+        margin-left: 40px;
+        margin-top: 5px;
+}
+
+#details
+{
+        font-family: Arial;
+        font-size: 12px;
+        color: grey;
+        margin-left: 40px;
+        margin-top: 5px;
+}
+
+#sb
+{
+        font-family: Arial;
+        font-size: 17px;
+        color: #222f3d;
+        margin-top: 15px;
+        margin-left: 40px;
+}
+
+#sbt
+{
+        margin-top: -18px;
+        margin-left: 170px;
+        font-family: Arial;
+}
+
+#gifto
+{
+        font-family: Arial;
+        font-size: 15px;
+        margin-left: 40px;
+        margin-top: 10px;
+}
+
+#ptb
+{
+        background-color: rgb(255, 216, 20);
+        border: 1px solid rgb(255, 216, 20);
+        font-family: Arial;
+        font-size: 14px;
+        border-radius: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 20px;
+        margin-left: 35px;
+}
+
+#emi
+{
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 30px;
+        margin-left: 35px;
 }
