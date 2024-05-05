@@ -1,0 +1,104 @@
+.navigation
+{
+        font-family: poppins;
+}
+
+.navigation li a
+{
+        color: black;
+}
+
+.welcome h3
+{
+        font-family: poppins;
+        font-size: 50px;
+        font-weight: bold;
+        padding-top: 150px;
+        /* margin-left: -70px; */
+}
+
+.welcome  p
+{
+        font-family: poppins;
+        /* padding-left: 70px; */
+        padding-top: 20px;
+        font-size: 25px;
+}
+
+.registerformalign
+{
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: poppins;
+}
+
+.loginformalign
+{
+        padding-top: 120px;
+        padding-right: 70px;
+        padding-left: 70px;
+        font-family: poppins;
+}
+
+.contactformalign
+{
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: poppins;
+}
+
+.imgalign
+{
+        float: right;
+        padding-top: 80px;
+        /* width: 500px; */
+}
+
+.buttonalign
+{
+        font-family: poppins;  
+        margin-left: 10px; 
+        margin-bottom: 15px;
+        padding-top: 5px; 
+        padding-left: 30px; 
+        padding-right: 30px;
+}
+
+.footer
+{
+        min-height: 100px;
+        font-family: poppins;
+        
+}
+
+.section
+{
+        height: 200px;
+        width: 200px;
+        margin: 0px auto;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: blueviolet;
+}
+
+.section img 
+{
+        width: 150%;
+}
+
+
+.smi
+{
+        list-style-type: none;
+}
+
+.smi li
+{
+        display: inline-block;
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        border-radius: 50%;
+}

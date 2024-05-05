@@ -1,34 +1,30 @@
-#box
-{
-height: 1200px;
-width: 1200px;
-border: 1px solid;
-margin: 0px auto;
-background-color: lightgrey;
+#box {
+    height: 1200px;
+    width: 1200px;
+    border: 1px solid;
+    margin: 0px auto;
+    background-color: lightgrey;
 }
 
-#col1
-{
-height: 1150px;
-width: 500px;
-/* border: 1px solid; */
-margin-left: 25px;
-margin-top: 25px;
-float: left;
+#col1 {
+    height: 1150px;
+    width: 500px;
+    /* border: 1px solid; */
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
 }
 
-#Googleplus
-{
-      height: 400px; 
-      width: 500px;
-      /* border: 1px solid; */
-      border-radius: 5px;
-      float: left; 
-      background-color: white;
+#Googleplus {
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    float: left;
+    background-color: white;
 }
 
-#Googleplusbutton
-{
+#Googleplusbutton {
     margin-top: 25px;
     margin-left: 335px;
     width: 140px;
@@ -42,8 +38,7 @@ float: left;
     font-family: calibri;
 }
 
-#Googleplustextbox
-{
+#Googleplustextbox {
     width: 300px;
     height: 200px;
     /* border: 1px solid; */
@@ -51,79 +46,70 @@ float: left;
     margin-left: 35px;
 }
 
-h3
-{
+h3 {
     font-family: Lucida Sans;
     font-size: 30px;
     color: rgb(38, 37, 37);
 }
 
-p
-{
-    font-family:  Arial;
+p {
+    font-family: Arial;
     font-size: 18px;
+    color: rgb(166, 159, 159);
 }
 
-#oneB
-{
-      height: 725px; 
-      width: 500px;
-      /* border: 1px solid;  */
-      margin-top: 25px;
-      float: left;
+#oneB {
+    height: 725px;
+    width: 500px;
+    /* border: 1px solid;  */
+    margin-top: 25px;
+    float: left;
 }
 
-#BloggerAndroidCol
-{
-      height: 725px; 
-      width: 225px;
-      /* border: 1px solid;  */
-      float: left;
+#BloggerAndroidCol {
+    height: 725px;
+    width: 225px;
+    /* border: 1px solid;  */
+    float: left;
 }
 
-#blogger
-{
+#blogger {
     width: 225px;
     height: 290px;
     /* border: 1px solid; */
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
     float: left;
-    background-color: 0xCE483D;
-    
+    background-color: rgb(206, 72, 61);
 }
 
-#bloggerimage
-{
+#bloggerimage {
     width: 225px;
-    height: 150px;
-    /* background-color: rgb(255, 234, 0); */
-    
-    /* border: 2px solid; */
+    height: 115px;
+    background-color: rgb(206, 72, 61);
+    /* border: 1px solid black; */
     border-radius: 5px 5px 0px 0px;
 }
 
-#bloggericon
-{
-    background-image: url("../Images/bloggericon.png");
+#bloggericon {
+    background-image: url("../Images/bloggericon.jpeg");
     background-repeat: no-repeat;
-    border-radius: 20px;
+    border-radius: 5px;
     margin: 0px auto;
-    margin-top: 15px;
-    width: 125px;
-    height: 125px;
+    margin-top: 30px;
+    width: 80px;
+    height: 79px;
     /* border: 1px solid; */
 }
 
-#bloggertext
-{
+#bloggertext {
     width: 225px;
-    height: 125px;
+    height: 144px;
     background-color: rgb(185, 40, 40);
+    border-radius: 0px 0px 5px 5px;
     /* border: 1px solid blue; */
 }
 
-.headings
-{
+.headings {
     font-family: Roboto;
     font-weight: bold;
     font-size: 14px;
@@ -135,8 +121,7 @@ p
     /* border: 1px solid black; */
 }
 
-.content p
-{
+.content p {
     font-family: Calibri;
     font-size: 15px;
     margin-left: 11px;
@@ -144,99 +129,253 @@ p
     /* border: 1px solid black; */
 }
 
-#android
-{
+#android {
     width: 225px;
     height: 410px;
     margin-top: 25px;
     /* border: 1px solid; */
     float: left;
-    background-color: rgb(61, 250, 61);
+    background-color: rgb(142, 176, 33);
     border-radius: 5px;
 }
 
-#ChromeAndMusicCol
-{
-      height: 725px; 
-      width: 250px;
-      /* border: 1px solid;  */
-      float: right;
+#androidimage {
+    width: 224px;
+    height: 249px;
+    background-color: rgb(142, 176, 33);
+    /* border: 1px solid black; */
+    border-radius: 5px 5px 0px 0px;
 }
 
-#chrome
-{
+#androidicon {
+    background-image: url("../Images/androidicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 187px;
+    height: 216px;
+    /* border: 1px solid; */
+}
+
+#androidtext {
+    width: 225px;
+    height: 130px;
+    background-color: rgb(126, 157, 28);
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
+}
+
+#ChromeAndMusicCol {
+    height: 725px;
+    width: 250px;
+    /* border: 1px solid;  */
+    float: right;
+}
+
+#chrome {
     width: 250px;
     height: 410px;
     /* border: 1px solid; */
     float: left;
-    background-color: rgb(169, 70, 70);
+    background-color: rgb(121, 48, 42);
     border-radius: 5px;
 }
 
-#music
-{
+#chromeimage {
+    width: 250px;
+    height: 215px;
+    background-color: rgb(121, 48, 42);
+    /* border: 1px solid black; */
+    border-radius: 5px 5px 0px 0px;
+}
+
+#chromeicon {
+    background-image: url("../Images/chromeicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 164px;
+    height: 160px;
+    /* border: 1px solid; */
+}
+
+#chrometext {
+    width: 250px;
+    height: 144px;
+    background-color: rgb(102, 38, 33);
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
+}
+
+#music {
     width: 250px;
     height: 290px;
     margin-top: 25px;
     /* border: 1px solid; */
     float: left;
-    background-color: rgb(251, 251, 17);
+    background-color: rgb(255, 208, 6);
     border-radius: 5px;
 }
 
-#col2
-{
-height: 1150px;
-width: 300px;
-/* border: 1px solid; */
-margin-left: 25px;
-margin-top: 25px;
-float: left;
+#musicimage {
+    width: 250px;
+    height: 140px;
+    background-color: rgb(255, 208, 6);
+    /* border: 1px solid black; */
+    border-radius: 5px 5px 0px 0px;
 }
 
-#gmail
-{
-    width: 300px;
-    height: 287.5px;
+#musicicon {
+    background-image: url("../Images/musicicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 128px;
+    height: 126px;
     /* border: 1px solid; */
-    background-color: rgb(158, 221, 246);
+}
+
+#musictext {
+    width: 250px;
+    height: 130px;
+    background-color: rgb(235, 192, 9);
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
+}
+
+#col2 {
+    height: 1150px;
+    width: 300px;
+    /* border: 1px solid; */
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+#gmail {
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid; */
+    background-color: rgb(171, 203, 214);
     border-radius: 5px;
 }
 
+#gmailimage {
+    width: 295px;
+    height: 228px;
+    background-color: rgb(171, 203, 214);
+    border: 1px solid rgb(171, 203, 214);
+    border-radius: 5px 5px 0px 0px;
+}
 
-#news
-{
+#gmailicon {
+    background-image: url("../Images/gmailicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-left: 80px;
+    margin-top: 60px;
+    width: 145px;
+    height: 107px;
+    /* border: 1px solid; */
+}
+
+#gmailtext {
     width: 300px;
-    height: 402.5px;
+    height: 120px;
+    background-color: rgb(140, 190, 207);
+    /* margin-top: 69px; */
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
+}
+
+#news {
+    width: 300px;
+    height: 290px;
     margin-top: 25px;
     /* border: 1px solid; */
-    background-color: rgb(159, 206, 159);
+    background-color: rgb(123, 193, 161);
     border-radius: 5px;
 }
 
+#newsimage {
+    width: 295px;
+    height: 170px;
+    background-color: rgb(123, 193, 161);
+    border: 1px solid rgb(123, 193, 161);
+    border-radius: 5px 5px 0px 0px;
+}
 
-#earth
-{
+#newsicon {
+    background-image: url("../Images/newsicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 125px;
+    height: 105px;
+    /* border: 1px solid; */
+}
+
+#newstext {
     width: 300px;
-    height: 406px;
+    height: 119px;
+    background-color: rgb(94, 185, 144);
+    /* margin-top: 69px; */
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
+}
+
+#earth {
+    width: 300px;
+    height: 460px;
     margin-top: 25px;
     /* border: 1px solid; */
-    background-color: rgb(24, 12, 105);
+    background-color: rgb(16, 30, 85);
     border-radius: 5px;
 }
 
-#col3
-{
-height: 1150px;
-width: 300px;
-/* border: 1px solid; */
-margin-left: 25px;
-margin-top: 25px;
-float: left;
+#earthimage {
+    width: 295px;
+    height: 327px;
+    background-color: rgb(16, 30, 85);
+    border: 1px solid rgb(16, 30, 85);
+    border-radius: 5px 5px 0px 0px;
 }
 
-#maps
-{
+#earthicon {
+    background-image: url("../Images/earthicon.jpeg");
+    background-repeat: no-repeat;
+    /* border-radius: 5px; */
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 280px;
+    height: 327px;
+    /* border: 1px solid; */
+}
+
+#earthtext {
+    width: 300px;
+    height: 130px;
+    background-color: rgb(11, 22, 63);
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
+}
+
+#col3 {
+    height: 1150px;
+    width: 300px;
+    /* border: 1px solid; */
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+
+#maps {
     width: 300px;
     height: 406px;
     /* border: 1px solid; */
@@ -244,24 +383,102 @@ float: left;
     border-radius: 5px;
 }
 
+#mapsimage {
+    width: 298px;
+    height: 280px;
+    background-color: rgb(248, 189, 39);
+    border: 1px solid rgb(248, 189, 39);
+    border-radius: 5px 5px 0px 0px;
+}
 
-#search
-{
+#mapsicon {
+    background-image: url("../Images/mapicon.jpeg");
+    background-repeat: no-repeat;
+    /* border-radius: 5px; */
+    margin: 0px auto;
+    /* margin-top: px; */
+    width: 256px;
+    height: 308px;
+    /* border: 1px solid; */
+}
+
+#mapstext {
+    width: 300px;
+    height: 130px;
+    background-color: rgb(242, 181, 28);
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
+}
+
+#search {
     width: 300px;
     height: 402.5px;
     margin-top: 25px;
     /* border: 1px solid; */
-    background-color: rgb(129, 144, 240);
+    background-color: rgb(42, 112, 232);
     border-radius: 5px;
 }
 
+#searchimage {
+    width: 298px;
+    height: 280px;
+    background-color: rgb(42, 112, 232);
+    border: 1px solid rgb(42, 112, 232);
+    border-radius: 5px 5px 0px 0px;
+}
 
-#youtube
-{
+#searchicon {
+    background-image: url("../Images/searchicon.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 70px;
+    margin-left: 90px;
+    width: 130px;
+    height: 122px;
+    /* border: 1px solid; */
+}
+
+#searchtext {
     width: 300px;
-    height: 287.5px;
+    height: 130px;
+    background-color: rgb(9, 87, 219);
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
+}
+
+#youtube {
+    width: 300px;
+    height: 290px;
     margin-top: 25px;
     /* border: 1px solid; */
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(43, 36, 35);
     border-radius: 5px;
+}
+
+#youtubeimage {
+    width: 298px;
+    height: 160px;
+    background-color: rgb(43, 36, 35);
+    border: 1px solid rgb(43, 36, 35);
+    border-radius: 5px 5px 0px 0px;
+}
+
+#youtubeicon {
+    background-image: url("../Images/yticon.jpeg");
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 131px;
+    height: 94px;
+    /* border: 1px solid; */
+}
+
+#youtubetext {
+    width: 300px;
+    height: 130px;
+    background-color: rgb(21, 17, 17);
+    border-radius: 0px 0px 5px 5px;
+    /* border: 1px solid blue; */
 }

@@ -1,0 +1,610 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: green;
+      }
+
+      #outer {
+        height: 1400px;
+        width: 1000px;
+        /* border: 1px solid white; */
+        margin: 0px auto;
+      }
+
+      #nav {
+        width: 1000px;
+        height: 50px;
+        border: 1px solid rgb(210, 206, 206);
+        border-radius: 20px 20px 0px 0px;
+        background-color: rgb(247, 242, 242);
+      }
+
+      #nav ul {
+        list-style-type: none;
+      }
+
+      #nav ul li {
+        display: inline;
+        border-right: 1px solid rgb(210, 206, 206);
+        padding: 15px;
+        margin-left: 20px;
+        font-size: 12px;
+        font-family: Open sans, sans-serif;
+        /* background-color: white; */
+      }
+
+      #nav ul li a:hover {
+        color: green;
+      }
+
+      #nav ul li a {
+        color: rgb(144, 143, 143);
+        text-decoration: none;
+      }
+
+      #searchbox {
+        float: right;
+        height: 40px;
+        width: 250px;
+        margin-top: 5px;
+        /* border: 1px solid; */
+      }
+
+      #boxalign {
+        height: 40px;
+      }
+
+      #slider {
+        height: 250px;
+        width: 1001px;
+        /* border: 1px solid black; */
+        margin-top: 5px;
+        background-color: white;
+        background-image: url("images/sofa.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #col1 {
+        height: 780px;
+        width: 1001px;
+        /* border: 1px solid white; */
+        margin-top: 5px;
+      }
+
+      #leftcol {
+        height: 780px;
+        width: 701px;
+        /* border: 1px solid white; */
+        background-color: white;
+        float: left;
+        border-radius: 0px 0px 0px 20px;
+      }
+
+      #box1 {
+        width: 655px;
+        height: 50px;
+        /* border: 1px solid; */
+        margin-top: 40px;
+        margin-left: 35px;
+      }
+
+      .heading1 {
+        font-family: Open sans, sans-serif;
+        font-weight: 600;
+        color: #4d4d4d;
+        font-size: 18px;
+      }
+
+      .date {
+        margin-top: 10px;
+        font-family: Calibri;
+        /* font-weight: 600; */
+        color: #4d4d4d;
+        font-size: 11px;
+      }
+
+      #date {
+        color: red;
+      }
+
+      
+
+      #box3 {
+        width: 655px;
+        height: 380px;
+        /* border: 1px solid; */
+        margin-top: 10px;
+        margin-left: 35px;
+      }
+
+      #registrationbox {
+            width: 500px;
+            height: 400px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 15px;
+            margin-left: 70px;
+            margin-top: 30px;
+        }
+
+      #rightcol {
+        height: 780px;
+        width: 300px;
+        /* border: 1px solid black; */
+        background-color: lightgrey;
+        float: right;
+        border-radius: 0px 0px 20px 0px;
+      }
+
+      #sidebarheading {
+        font-family: Open sans, sans-serif;
+        font-weight: 600;
+        color: #4d4d4d;
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: 40px;
+      }
+
+      #sidebaritem ul {
+        list-style-type: none;
+      }
+
+      #sidebaritem ul li {
+        padding: 5px;
+        font-size: 15px;
+        font-family: Calibri;
+      }
+
+      #sidebaritem ul li a:hover {
+        color: green;
+      }
+
+      #sidebaritem ul li a {
+        color: rgb(144, 143, 143);
+        text-decoration: none;
+      }
+
+      #sponsoritem ul {
+        list-style-type: none;
+      }
+
+      #sponsoritem ul li {
+        padding: 4px;
+        font-size: 15px;
+        font-family: Calibri;
+      }
+
+      #sponsoritem ul li a:hover {
+        color: green;
+      }
+
+      #sponsoritem ul li a {
+        color: rgb(144, 143, 143);
+        text-decoration: none;
+      }
+
+      #footer {
+        height: 290px;
+        width: 1001px;
+        border: 1px solid white;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 20px;
+      }
+
+      .footercols {
+        width: 310px;
+        height: 260px;
+        /* border: 1px solid black; */
+        margin-left: 15px;
+        margin-top: 15px;
+        float: left;
+      }
+
+      #footheading1 {
+        width: 310px;
+        height: 50px;
+        /* border: 1px solid; */
+      }
+
+      #gallerybox {
+        width: 250px;
+        height: 150px;
+        /* border: 1px solid; */
+        margin-left: 15px;
+      }
+
+      #gbox1 {
+        width: 60px;
+        height: 60px;
+        /* border: 1px solid; */
+        float: left;
+      }
+
+      #gimg1 {
+        background-image: url("images/gbox1.jpeg");
+        width: 54px;
+        height: 54px;
+        margin-top: 3px;
+        margin-left: 3px;
+      }
+
+      #gbox2 {
+        width: 60px;
+        height: 60px;
+        /* border: 1px solid; */
+        margin-left: 32.5px;
+        float: left;
+      }
+
+      #gimg2 {
+        background-image: url("images/gbox2.jpeg");
+        width: 54px;
+        height: 54px;
+        margin-top: 3px;
+        margin-left: 3px;
+      }
+
+      #gbox3 {
+        width: 60px;
+        height: 60px;
+        /* border: 1px solid; */
+        margin-left: 32.5px;
+        float: left;
+      }
+
+      #gimg3 {
+        background-image: url("images/gbox3.jpeg");
+        width: 54px;
+        height: 54px;
+        margin-top: 3px;
+        margin-left: 3px;
+      }
+
+      #gbox4 {
+        width: 60px;
+        height: 60px;
+        /* border: 1px solid; */
+        margin-top: 26px;
+        float: left;
+      }
+
+      #gimg4 {
+        background-image: url("images/gbox4.jpeg");
+        width: 54px;
+        height: 54px;
+        margin-top: 3px;
+        margin-left: 3px;
+      }
+
+      #gbox5 {
+        width: 60px;
+        height: 60px;
+        /* border: 1px solid; */
+        margin-left: 32.5px;
+        margin-top: 26px;
+        float: left;
+      }
+
+      #gimg5 {
+        background-image: url("images/gbox5.jpeg");
+        width: 54px;
+        height: 54px;
+        margin-top: 3px;
+        margin-left: 3px;
+      }
+
+      #gbox6 {
+        width: 60px;
+        height: 60px;
+        /* border: 1px solid; */
+        margin-left: 32.5px;
+        margin-top: 26px;
+        float: left;
+      }
+
+      #gimg6 {
+        background-image: url("images/gbox6.jpeg");
+        width: 54px;
+        height: 54px;
+        margin-top: 3px;
+        margin-left: 3px;
+      }
+
+      #ipsumbox {
+        width: 270px;
+        height: 150px;
+        /* border: 1px solid; */
+        margin-left: 15px;
+      }
+
+      #footheading2 {
+        width: 310px;
+        height: 50px;
+        /* border: 1px solid; */
+      }
+
+      #footheading3 {
+        width: 310px;
+        height: 50px;
+        /* border: 1px solid; */
+      }
+
+      #contactbox {
+        width: 270px;
+        height: 150px;
+        /* border: 1px solid; */
+        margin-left: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="outer">
+      <div id="nav">
+        <div id="searchbox">
+          <div id="magnify"></div>
+          <input id="boxalign" type="search" value="Search our site" />
+        </div>
+        <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="registration.html">REGISTER</a></li>
+                <li><a href="loggin.html">LOGIN</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div id="slider"></div>
+      <div id="col1">
+        <div id="leftcol">
+          <div id="box1">
+            <span class="heading1">Registration</span>
+            &nbsp;
+            <!-- <p class="date">
+              Date: <a id="date" href="#">16.03.2018</a> | Posted by
+              <a id="date" href="#">Owner </a> | Filed under
+              <a id="date" href="#">templates</a>,
+              <a id="date" href="#">internet</a> with comments
+              <a id="date" href="#">(11)</a>
+            </p> -->
+          </div>
+          <div id="box2"></div>
+          <div id="box3">
+                <div id="registrationbox">
+
+                        <form>
+                            <table>
+                                <h2 style="text-align: center; font-family: Open Sans, sans-serif;  padding-top: 20px;">Create your new account</h2>
+                                <tr>
+                                    <td
+                                        style="font-family: Open Sans, sans-serif;  padding-left: 40px; padding-top: 10px; font-size: 16px;">
+                                        Username:</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-family: Open Sans, sans-serif;  padding-left: 40px; padding-top: 5px;"><input
+                                            style="font-size: 15px; width: 410px; height: 35px; border-radius: 3px; border: 1px solid grey; font-family: Open Sans, sans-serif;"
+                                            type="text" name="full_name" required="true" placeholder="Enter your name" /></td>
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="font-family: Open Sans, sans-serif;  padding-left: 40px; padding-top: 10px; font-size: 16px;">
+                                        Email:</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-family: Open Sans, sans-serif;  padding-left: 40px; padding-top: 5px;"><input
+                                            style="font-size: 15px;  width: 410px; height: 35px; border-radius: 3px; border: 1px solid grey;"
+                                            type="email" name="full_name" required="true" placeholder="Enter your email" /></td>
+            
+                                </tr>
+                                <tr>
+                                    <td
+                                        style="font-family: Open Sans, sans-serif;  padding-left: 40px; padding-top: 10px; font-size: 16px;">
+                                        Password:</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-family: Open Sans, sans-serif;  padding-left: 40px; padding-top: 5px;"><input
+                                            style="font-size: 15px;  width: 410px; height: 35px; border-radius: 3px; border: 1px solid grey;"
+                                            type="password" name="password" placeholder="Create your password" /></td>
+                                </tr>
+                                <tr>
+                                    <td><button style="margin-left: 40px; margin-top: 15px; font-size: 15px;  width: 410px; height: 35px; border-radius: 3px; border: 1px solid blue; background-color: blue; color: white;">Create account</button></td>
+                                </tr>
+                            </table>
+                        </form>
+            
+                    </div>
+          </div>
+          <!-- <hr> -->
+          &nbsp;
+        </div>
+        <div id="rightcol">
+          <p id="sidebarheading">Sidebar Menu</p>
+          <div id="sidebaritem">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">TemplateInfo</a></li>
+              <li><a href="#">Style Demo</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Archieves</a></li>
+              <li><a href="#">Website Templates</a></li>
+            </ul>
+          </div>
+
+          <p id="sidebarheading">Sponsors</p>
+
+          <div id="sponsoritem">
+            <ul>
+              <li><a href="#">Lorem ipsum dolor</a></li>
+              <li><a href="#">Consectetur purus ut faucibus </a></li>
+              <li><a href="#">Lorem ipsum amet</a></li>
+              <li><a href="#">Consectetur purus ut faucibus </a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Consectetur purus ut faucibus </a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Consectetur purus ut faucibus </a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Consectetur purus ut faucibus </a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Consectetur purus ut faucibus </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footercols">
+          <div id="footheading1">
+            <p
+              style="
+                margin-left: 15px;
+                font-family: Arial;
+                font-weight: 600;
+                color: #4d4d4d;
+                font-size: 20px;
+              "
+            >
+              Image Gallery
+            </p>
+          </div>
+          <div id="gallerybox">
+            <div id="gbox1">
+              <div id="gimg1"></div>
+            </div>
+            <div id="gbox2">
+              <div id="gimg2"></div>
+            </div>
+            <div id="gbox3">
+              <div id="gimg3"></div>
+            </div>
+            <div id="gbox4">
+              <div id="gimg4"></div>
+            </div>
+            <div id="gbox5">
+              <div id="gimg5"></div>
+            </div>
+            <div id="gbox6">
+              <div id="gimg6"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footercols">
+          <div id="footheading2">
+            <p
+              style="
+                margin-left: 15px;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 20px;
+              "
+            >
+              Lorem Ipsum
+            </p>
+          </div>
+          <div id="ipsumbox">
+            <span
+              style="
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              "
+              >Lorem ipsum dolor sit amet, consectetur</span
+            >
+            <p
+              style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              "
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eius consectetur
+              <a id="date" href="#">adipiscing elit, sed do eiusmod</a> tempor
+              incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo
+              duis ut diam.Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiut diam.
+            </p>
+          </div>
+        </div>
+
+        <div class="footercols">
+          <div id="footheading3">
+            <p
+              style="
+                margin-left: 15px;
+                font-family: Arial;
+                font-weight: 500;
+                color: #4d4d4d;
+                font-size: 20px;
+              "
+            >
+              Contact
+            </p>
+          </div>
+          <div id="contactbox">
+            <span
+              style="
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              "
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eius
+            </span>
+            <p
+              style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              "
+            >
+              <a id="date" href="#">support@yoursite.com</a>
+            </p>
+            <p
+              style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              "
+            >
+              +1 (123)444-5677
+            </p>
+            <p
+              style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              "
+            >
+              +1 (123)444-5678
+            </p>
+            <!-- <br> -->
+            <p
+              style="
+                text-align: justify;
+                font-family: Arial;
+                font-weight: 300;
+                color: #4d4d4d;
+                font-size: 14px;
+              "
+            >
+              Address 123 TemplateAccess RD1
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

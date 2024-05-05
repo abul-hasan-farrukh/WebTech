@@ -1,0 +1,14 @@
+sm - 578px;
+md - 768px;
+lg - 991px;
+xl - 1200px;
+xxl - 1400px;
+
+1 Row - 12 Columns
+margin - 49
+margin on y-axis : my-5
+margin on x-xis : mx-5
+no m-0 in row.
+no p-0 in container fluid.
+margin left- start
+margin right- end.
